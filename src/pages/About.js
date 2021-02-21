@@ -4,12 +4,12 @@ import Layout from '../components/Layout';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Generic</h2>
+          <h2>About Me</h2>
           <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
         </div>
       </header>
@@ -83,4 +83,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default AboutPage;
